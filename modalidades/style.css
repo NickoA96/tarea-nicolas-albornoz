@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: orange;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+
+
+
+
+
+main h2,h1{
+    text-align: center;
+}
+
+
+
+
+
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+    
+}
+
+.color-acento{ color:orangered; }
+
+header{
+    background-color: rgb(245,245,245);
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: orangered;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: orangered;
+}
+
+.formulario {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.container input{
+    margin: 1em;
+}
+
+
+footer{
+    background-color: rgb(245,245,245);
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.redes-sociales{
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+footer p{
+    margin: 0px;
+    padding: 20px;
+}
+footer h4{
+    margin: 0px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
