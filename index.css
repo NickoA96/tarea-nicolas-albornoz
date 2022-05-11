@@ -57,15 +57,17 @@ header .container{
 }
 header nav{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     padding-bottom: 25px;
+    margin: auto;
 }
 header a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
     color: black;
+    
 }
 header a:hover{
     color: orangered;
@@ -89,9 +91,11 @@ header a:hover{
 }
 #somos-programando h2{
     color: white;
+    margin: auto;
+    
 }
 #somos-programando p{
-    padding: 150px 12px;
+    
     color: white;
 }
 
@@ -254,6 +258,10 @@ header a:hover{
     padding: 50px;
 }
 
+.comentario{
+    float: left;
+}
+
 .comentario:first-child{
     background-color: blue;
     display: flex;
@@ -263,33 +271,67 @@ header a:hover{
     flex-direction: column;
     flex-wrap: wrap;
     margin: auto;
-    
-    
+    background-image: linear-gradient(
+        0deg,
+        rgba(0.5,0.5,0.5,0.5),
+        rgba(0.5,0.5,0.5,0.5)
+    )
+    ,url("media/hernan.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+
 }
 
 .comentario:nth-child(2){
-    background-color: blueviolet;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: auto;
-    
-}
+background-color: blue;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+flex-wrap: wrap;
+margin: auto;
+background-image: linear-gradient(
+    0deg,
+    rgba(0.5,0.5,0.5,0.5),
+    rgba(0.5,0.5,0.5,0.5)
+)
+,url("media/nadia2.jpg");
+background-size: cover;
+background-position: center center;
+height: 500px;
+width: 400px;
+
+
+}    
+
+
 
 .comentario:nth-child(3){
-    background-color: green;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: auto;
-    
-}
+background-color: blue;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+flex-wrap: wrap;
+margin: auto;
+background-image: linear-gradient(
+    0deg,
+    rgba(0.5,0.5,0.5,0.5),
+    rgba(0.5,0.5,0.5,0.5)
+)
+,url("media/leon3.jpg");
+background-size: cover;
+background-position: center center;
+height: 500px;
+width: 400px;
+
+
+}    
+
 
 footer{
     background-color: rgb(245,245,245);
@@ -323,13 +365,23 @@ footer h4{
 }
 
 
+@media (min-width: 720px){
 
+    header{
+        position: fixed;
+        width: 100%;
+    }
 
+    header.container{
+    flex-direction: row;
+    }
 
+    header nav{
+        flex-direction: row;
+        
+    }
 
-
-
-
+}
 
 
 
