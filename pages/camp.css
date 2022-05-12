@@ -73,6 +73,20 @@ header a:hover{
     text-decoration: none;
 }
 
+.map-responsive {
+    overflow:hidden;
+    padding-bottom: 250px; 
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 
 footer{
     background-color: rgb(245,245,245);
@@ -93,6 +107,7 @@ footer{
     background-color: rgb(245,245,245);
     text-decoration: none;
     text-align: center;
+    margin-top: 10px;
     
 }
 
@@ -119,7 +134,24 @@ footer h4{
 }
 
 
+@media (min-width: 720px){
 
+    .carta {
+        border-radius: 12px;
+        background-color: rgb(30, 30, 30);
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        
+    }
+    
+    .carta li{
+        color: whitesmoke;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+}
 
 
 
