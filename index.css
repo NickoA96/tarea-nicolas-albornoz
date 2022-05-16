@@ -219,58 +219,46 @@ header a:hover{
 }
 
 
-#nuestros-estudiantes{
+#nuestros-estudiantes  {
     background-color: rgb(30, 30, 30);
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: center;
     text-align: center;
-    flex-direction: column;
+    flex-direction:column;
     flex-wrap: wrap;
     margin: auto;
-    
-    
-}
 
-#nuestros-estudiantes h2{
+}
+#nuestros-estudiantes    h2{
     color: white;
-    margin: 0px;
-    padding: 20px;
+    height: 2.5em;
+    
 }
-#nuestros-estudiantes h3{
-    color: black;
-    margin: 0px;
-    padding: 20px;
-}
-
-#nuestros-estudiantes p{
+#nuestros-estudiantes    p{
+    
     color: whitesmoke;
-    margin: 0px;
-    padding: 20px;
+    padding-top: auto;
 }
-
-#nuestros-estudiantes .comentario{
-    background-position: center center;
-    background-size: cover;
-    padding: 50px 0px;
-    margin: 30px;
-    border-radius: 15px;
-    padding: 50px;
+#nuestros-estudiantes    h3{
+    color: black;
 }
-
-.comentario{
+#nuestros-estudiantes    .comentario{
     float: left;
+    background-color: rgb(30, 30, 30);
+    width: 330px;
+    height: 430px;  
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    
+
 }
 
 .comentario:first-child{
-    background-color: blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: auto;
     background-image: linear-gradient(
         0deg,
         rgba(0.5,0.5,0.5,0.5),
@@ -278,59 +266,31 @@ header a:hover{
     )
     ,url("media/hernan.jpg");
     background-size: cover;
-    background-position: center center;
-    height: 500px;
-    width: 400px;
-
+    background-position: center ;
 }
 
 .comentario:nth-child(2){
-background-color: blue;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-flex-direction: column;
-flex-wrap: wrap;
-margin: auto;
-background-image: linear-gradient(
+    background-image: linear-gradient(
     0deg,
     rgba(0.5,0.5,0.5,0.5),
     rgba(0.5,0.5,0.5,0.5)
 )
 ,url("media/nadia2.jpg");
 background-size: cover;
-background-position: center center;
-height: 500px;
-width: 400px;
-
-
-}    
-
-
+background-position: center ;
+}
 
 .comentario:nth-child(3){
-background-color: blue;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-flex-direction: column;
-flex-wrap: wrap;
-margin: auto;
-background-image: linear-gradient(
+    background-image: linear-gradient(
     0deg,
     rgba(0.5,0.5,0.5,0.5),
     rgba(0.5,0.5,0.5,0.5)
 )
 ,url("media/leon3.jpg");
 background-size: cover;
-background-position: center center;
-height: 500px;
-width: 400px;
+background-position: center ;
+}
 
-
-}    
 
 
 footer{
@@ -386,140 +346,3 @@ footer h4{
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
